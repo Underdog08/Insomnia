@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BAB",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:logs"
+    },
+    "B": {
+      "item": "insomnia:plant_fibers"
+    },
+    "C": {
+      "item": "insomnia:matchsticks"
+    }
+  },
+  "result": {
+    "id": "minecraft:campfire"
+  }
+}

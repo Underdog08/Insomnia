@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "insomnia:v1/crafting_table"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "ambient": {
+    "sounds": [
+      {
+        "name": "insomnia:ambient/ambient1"
+      },
+      {
+        "name": "insomnia:ambient/ambient2"
+      },
+      {
+        "name": "insomnia:ambient/ambient3"
+      },
+      {
+        "name": "insomnia:ambient/ambient4"
+      },
+      {
+        "name": "insomnia:ambient/ambient5"
+      },
+      {
+        "name": "insomnia:ambient/ambient6"
+      },
+      {
+        "name": "insomnia:ambient/ambient7"
+      },
+      {
+        "name": "insomnia:ambient/ambient8"
+      },
+      {
+        "name": "insomnia:ambient/ambient9"
+      },
+      {
+        "name": "insomnia:ambient/ambient10"
+      },
+      {
+        "name": "insomnia:ambient/ambient11"
+      }
+    ]
+  },
+  "music_forest": {
+    "sounds": [
+      {
+        "name": "insomnia:lost_song"
+      },
+      {
+        "name": "insomnia:hunted_song"
+      }
+    ]
+  }
+}

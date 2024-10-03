@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "insomnia:flint_axe"
+    },
+    "title": "A Step Above Nothing",
+    "description": {
+      "text": "Craft a flint axe with the minimal resources available",
+      "color": "white"
+    },
+    "background": "minecraft:textures/block/sculk.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "insomnia:progression/root",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "insomnia:flint_axe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ]
+}

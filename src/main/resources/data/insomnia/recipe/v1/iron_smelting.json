@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "equipment",
+  "ingredient": {
+    "item": "minecraft:raw_iron"
+  },
+  "result": {
+    "id": "minecraft:iron_ingot"
+  },
+  "experience": 0.2,
+  "cookingtime": 600
+}

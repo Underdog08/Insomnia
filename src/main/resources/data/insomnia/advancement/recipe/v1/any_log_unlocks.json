@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_log",
+              "minecraft:birch_log"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "insomnia:v1/wooden_axe",
+      "insomnia:v1/wooden_pickaxe",
+      "insomnia:v1/wooden_shovel",
+      "insomnia:v1/wooden_sword",
+      "insomnia:v1/wooden_hoe",
+      "insomnia:v1/campfire"
+    ]
+  }
+}

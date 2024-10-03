@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_head"
+    },
+    "title": "Dead Men Tell No Tales",
+    "description": {
+      "text": "Using your new sword, inflict a lethal blow on a zombie",
+      "color": "white"
+    },
+    "background": "minecraft:textures/block/sculk.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "insomnia:progression/side_quests/cutting_edge",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_sword",
+                "minecraft:stone_sword",
+                "minecraft:iron_sword",
+                "minecraft:diamond_sword",
+                "minecraft:golden_sword"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": [
+            "minecraft:zombie",
+            "minecraft:husk",
+            "minecraft:drowned",
+            "minecraft:zombie_villager"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "insomnia:v2/oak_stairs",
+      "insomnia:v2/oak_slab",
+      "insomnia:v2/oak_door",
+      "insomnia:v2/oak_trapdoor"
+    ]
+  }
+}

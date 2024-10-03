@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"package": "com.underdog.insomnia.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"BatEntityMixin",
+		"BarrelBlockEntityMixin",
+		"NetherPortalMixin",
+		"ZombieEntityMixin",
+		"BedBlockMixin",
+		"MilkBucketItemMixin",
+		"ItemMixin",
+		"BlocksMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

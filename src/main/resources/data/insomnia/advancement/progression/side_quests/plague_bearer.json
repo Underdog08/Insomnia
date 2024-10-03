@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": "Plague Bearer",
+    "description": {
+      "text": "Get infected by the bite of a zombie",
+      "color": "white"
+    },
+    "background": "minecraft:textures/block/sculk.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "insomnia:progression/side_quests/dead_men_tell_no_tales",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "insomnia:infected": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ]
+}

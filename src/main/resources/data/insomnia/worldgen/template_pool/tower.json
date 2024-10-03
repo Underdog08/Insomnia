@@ -1,0 +1,14 @@
+{
+  "name": "insomnia:tower",
+  "fallback": "minecraft:empty",
+  "elements": [{
+    "weight": 1,
+    "element": {
+      "location": "insomnia:tower",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element",
+      "override_liquid_settings": "ignore_waterlogging"
+    }
+  }]
+}

@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "insomnia:v1/flint_axe",
+      "insomnia:v1/matchsticks"
+    ]
+  }
+}

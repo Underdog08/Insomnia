@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wheat",
+              "minecraft:hay_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "insomnia:v2/bread",
+      "insomnia:v2/wheat",
+      "insomnia:v2/haybale"
+    ]
+  }
+}

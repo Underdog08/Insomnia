@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:birch_planks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "insomnia:v2/birch_stairs",
+      "insomnia:v2/birch_slab",
+      "insomnia:v2/birch_door",
+      "insomnia:v2/birch_trapdoor"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "insomnia",
+	"version": "${version}",
+	"name": "Insomnia",
+	"description": "Hope is lost...",
+	"authors": [
+		"Underdog"
+	],
+	"contact": {
+		"homepage": " ",
+		"sources": " "
+	},
+	"accessWidener" : "insomnia.accesswidener",
+	"license": "MIT",
+	"icon": "assets/insomnia/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.underdog.insomnia.Insomnia"
+		],
+		"fabric-datagen": [
+			"com.underdog.insomnia.InsomniaDataGenerator"
+		],
+		"terrablender": [
+			"com.underdog.insomnia.world.ModTerrablenderAPI"
+		]
+	},
+	"mixins": [
+		"insomnia.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

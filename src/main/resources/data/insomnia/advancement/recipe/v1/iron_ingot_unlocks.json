@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "insomnia:v1/iron_axe",
+      "insomnia:v1/iron_pickaxe",
+      "insomnia:v1/iron_shovel",
+      "insomnia:v1/iron_hoe",
+      "insomnia:v1/iron_sword"
+    ]
+  }
+}

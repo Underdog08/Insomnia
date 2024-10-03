@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 27984671,
+    "separation": 8,
+    "spacing": 10,
+    "spread_type": "triangular"
+  },
+  "structures":[{
+    "structure": "insomnia:spawner_struc",
+    "weight": 1
+  }]
+}

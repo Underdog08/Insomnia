@@ -1,0 +1,9 @@
+{
+  "effect.insomnia.fatigue": "Fatigue",
+  "effect.insomnia.infected": "Infected",
+  "item.insomnia.flint_axe": "Flint Axe",
+  "item.insomnia.apple_core": "Apple Core",
+  "item.insomnia.matchsticks": "Matchsticks",
+  "item.insomnia.plant_fibers": "Plant Fibers",
+  "death.attack.infection": "%1$s was overtaken by a fatal illness"
+}

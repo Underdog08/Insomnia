@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "insomnia:v1/stone_axe",
+      "insomnia:v1/stone_pickaxe",
+      "insomnia:v1/stone_shovel",
+      "insomnia:v1/stone_sword",
+      "insomnia:v1/stone_hoe"
+    ]
+  }
+}
